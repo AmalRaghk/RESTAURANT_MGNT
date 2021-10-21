@@ -1,0 +1,31 @@
+*
+{  font-family: "Times New Roman", Times, serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+#menu
+{
+ 
+  border-collapse: collapse;
+  width:100%;
+}
+#menu  tr:hover {background-color: #ddd;}
+#menu th {
+    border-bottom: 10px dotted white;
+    padding: 8px;
+  padding-top: px;
+  padding-bottom: px;
+  
+
+  color: white;
+}
+#menu td {
+    font-family: "Times New Roman", Times, serif;
+font-size: xx-large;    
+    
+
+border-left:10px dotted white;
+
+}

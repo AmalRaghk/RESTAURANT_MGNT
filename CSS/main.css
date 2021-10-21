@@ -1,0 +1,46 @@
+
+ul {
+  font-size: 25px;
+  font:x-large;
+  position :fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);  
+  opacity: 0.6;
+  
+}
+
+li {
+  float: left;
+}
+.active {
+    margin: 0;
+    background-color: #4CAF50;
+  }
+
+li a {
+  display: block;
+  color: rgb(3, 0, 0);
+  text-align:inline;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #4CAF50;
+}
+body{
+    background-image: url('food.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: normal;
+    max-width:100%;
+    height:auto;
+    margin:0;
+}
